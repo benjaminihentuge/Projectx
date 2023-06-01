@@ -43,7 +43,7 @@ const Search = () => {
             </form>
 
             <div className="secDiv flex items-center gap-10 justify-center">
-                
+
                 <div className="singleSearch flex items gap-2">
                     <label htmlFor="Sort By" className="text-[#808080] font-semibold">Sort By:</label>
                     <select name="" id="relevance" className=" bg-white rounded-[3px] px-4 py-1">
@@ -88,7 +88,7 @@ const Search = () => {
 
                 </div>
 
-                <span className=" text-[#a1a1a1 cursor-pointer]">Clear All</span>
+                <span className=" text-blueColor cursor-pointer ">Clear All</span>
                     
 
                 </div>
