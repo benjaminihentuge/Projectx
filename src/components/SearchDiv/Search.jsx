@@ -14,7 +14,7 @@ const Search = () => {
         <div className=" searchDiv grid gap-10 bg-greyIsh rounded-[10px] p-[3rem]">
             <form action="">
                 
-                <div className="firstDiv flex justify-between items-center rounded-[8px] gap-[10px] bg-white p-5 shadow-1g  shadow-greyIsh-700">
+                <div className="firstDiv flex justify-between items-center rounded-[8px] gap-[10px] bg-white p-5 shadow-lg  shadow-greyIsh-700">
 
                     <div className=" flex gap-2 item-center">
                         <AiOutlineSearch className="text-[25px] icon"/>
@@ -44,7 +44,7 @@ const Search = () => {
 
             <div className="secDiv flex items-center gap-10 justify-center">
 
-                <div className="singleSearch flex items gap-2">
+                <div className="singleSearch flex items-center gap-2">
                     <label htmlFor="Sort By" className="text-[#808080] font-semibold  ">Sort By:</label>
                     <select name="" id="relevance" className=" bg-white rounded-[3px] px-4 py-1">
                         <option value="">Relevance</option>
@@ -59,7 +59,7 @@ const Search = () => {
 
                 </div>
 
-                <div className="singleSearch flex items gap-2">
+                <div className="singleSearch flex items-center gap-2">
                     <label htmlFor="Type" className="text-[#808080] font-semibold">Type:</label>
 
                     <select name="" id="Type" className=" bg-white rounded-[3px] px-4 py-1">
@@ -72,7 +72,7 @@ const Search = () => {
                     </select>
 
 
-                <div className="singleSearch flex items gap-2">
+                <div className="singleSearch flex items-center gap-2">
                     <label htmlFor="Level" className="text-[#808080] font-semibold">Level:</label>
 
                     <select name="" id="Level" className=" bg-white rounded-[3px] px-4 py-1">
@@ -88,7 +88,7 @@ const Search = () => {
 
                 </div>
 
-                <span className=" text-blueColor cursor-pointer ">Clear All</span>
+                <span className=" text-[#a1a1a1] cursor-pointer ">Clear All</span>
                     
 
                 </div>

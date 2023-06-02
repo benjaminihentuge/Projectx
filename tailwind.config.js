@@ -11,6 +11,7 @@ module.exports = {
         'greyIsh': '#f1f4f8',
         'cardShadow': '#f7f8f9',
         'texColor': '#252b36',
+        
       }
     },
   },
